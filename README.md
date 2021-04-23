@@ -1,5 +1,5 @@
 # Personal_note
-Personal_note  Updated 1 minute ago This project is intended to record and share the notes that I obtained in my learning progress.
+This project is intended to record and share the notes that I obtained in my learning progress.
 
 2021_4_22:
 今天终于理解了图像处理中的一些问题，尤其是将一张自然图像变换到频域后的图像有了进一步的理解。如：一张自然图片被变化到频域时，总会呈现出中间亮度大，四周黑暗的现象，这是因为中心处即为一张图片的低频区域，四周为高频区域，且越原理中心处，频率越高，而中心处亮度较高说明图片的大部分信息均处在低频处，高频处所含信息较少。尤其是通过在频域抹去低频或高频等相关信息后通过比较恢复的图像与原图片，可以得到比较直观的认识。还有那个总是常见的十字型是因为在做傅里叶变换时，会认为图像是周期性重复的（比如将图像左右上下拼接），而当一张图像与其自身拼接后，左边界与有边界相接，此处会产生较大的差异，代表一个极其高的信号变化，我个人理解是相当于一个边界，所以分布在高频处。最后低频处信号含有图像的大部分信息，高频处一般含有图像的边界，所以在进行模糊处理时应该也是滤除了图像的高频信息，大概就是这样子。
@@ -8,3 +8,6 @@ Personal_note  Updated 1 minute ago This project is intended to record and share
 今天初学了redis设计与实现这本书，对其基本操作有了一个初步的了解。下面是一个练习作业，保存于此，防止丢失。
 
   ![image](https://user-images.githubusercontent.com/25473944/115837791-8cffaa00-a44b-11eb-864c-d2a0dbd4bc49.png)
+
+
+![image](https://user-images.githubusercontent.com/25473944/115838356-2fb82880-a44c-11eb-9589-67f7c5aad541.png)
