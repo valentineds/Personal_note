@@ -6,4 +6,4 @@ Personal_note  Updated 1 minute ago This project is intended to record and share
 2021_4_23:
 今天初学了redis设计与实现这本书，对其基本操作有了一个初步的了解。下面是一个练习作业，保存于此，防止丢失。
 
-![image](https://user-images.githubusercontent.com/25473944/115837791-8cffaa00-a44b-11eb-864c-d2a0dbd4bc49.png)
+                ![image](https://user-images.githubusercontent.com/25473944/115837791-8cffaa00-a44b-11eb-864c-d2a0dbd4bc49.png)
